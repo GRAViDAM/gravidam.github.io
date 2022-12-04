@@ -274,6 +274,14 @@ div.team > a{
   align-content: center;
   font-size: 3em;
   font-weight: 800;
+
+  /* Frosted glass*/
+  background: rgba(136, 0, 250, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(136, 0, 250, 0.24);
   
 }
 .pricing > span{
@@ -284,6 +292,7 @@ div.team > a{
 /* Portfolio page*/
 .portfolio{
   color: #000 !important;
+  
 }
 
 
