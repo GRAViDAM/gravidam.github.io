@@ -370,6 +370,7 @@ section {
 /* Footer left */
 footer{
 	background-color: #000 !important;
+  
 }
 .footer-distributed .footer-left{
 	float: left;
@@ -378,7 +379,7 @@ footer{
 /* The company logo */
 
 .footer-distributed h3{
-	font: normal 36px 'Roboto', cursive;
+	font: normal 36px , cursive;
 	margin: 0 0 10px;
 }
 
@@ -509,7 +510,7 @@ footer{
 	}
 
 	.footer-distributed .footer-company-name{
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	.footer-distributed form input,
