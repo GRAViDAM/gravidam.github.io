@@ -26,3 +26,39 @@ h3{
 }
 
 
+
+/* scrollbar */
+html {
+    /* scrollbar firefox */
+    scrollbar-color: rgb(1, 1, 1) rgb(136, 0, 250);
+}
+
+
+
+::-webkit-scrollbar {
+    
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    
+    box-shadow: inset 0 0 5px rgb(136, 0, 250);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+ 
+    background: rgb(136, 0, 250);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    
+    background: rgb(213, 213, 213);
+}
+
+::-webkit-scrollbar-track-piece {
+   
+    background: rgb(1, 1, 1);
+}
+
