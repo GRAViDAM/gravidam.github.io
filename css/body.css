@@ -295,6 +295,7 @@ div.team > a{
 }
 .pricing > a > span{
   display: none;
+  margin-left: 1em;
 }
 
 .pricing > a:hover > span{
@@ -302,10 +303,24 @@ div.team > a{
 }
 .pricing a{
   text-decoration:none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 1000px){
   .pricing > a > span{
     display: flex;
+  }
+  .pricing > a > img{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 750px){
+  .pricing{
+    font-size: 1em;
   }
   
 }
