@@ -281,6 +281,51 @@ table.sluzby{
 }
 
 
+/* REFERENCE PAGE */
+
+div.review-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 4em 1em 4em;
+  padding: 1em;
+}
+.review img{
+  width: 33%;
+  border-radius: 50%;
+  margin: 1em;
+}
+div.review{
+  background-color: #8800FF;
+  padding: 1em 4em 1em 4em;
+  margin-left: 1em;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+div.review:nth-of-type(2){ /* Posun prostředního div.review */
+  margin-bottom: 3em;
+}
+
+/* main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+} */
+
+span.intro{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em;
+  text-align: center;
+}
+
 
 /* FOOTER PAGE*/
 .footer-distributed{
