@@ -4,7 +4,12 @@
 }
 
 * {
+<<<<<<< Updated upstream
     font-family: "Maven PRO";
+=======
+    font-family: "Maven PRO" !important;
+    color: #ffffff;
+>>>>>>> Stashed changes
 }
 
 
