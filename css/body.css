@@ -263,18 +263,17 @@ div.team > a{
 
 
 /* PRICING PAGE */
-table.sluzby{
-  font-size: 1.5em;
+.pricing{
   width: 100%;
-  
+  height: 100%;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  
-}
-.sluzby td:nth-child(even){
-  padding-left: 10em;
+  font-size: 3em;
+  font-weight: 800;
 }
     
 /* Portfolio page*/
