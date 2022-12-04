@@ -274,6 +274,11 @@ div.team > a{
   align-content: center;
   font-size: 3em;
   font-weight: 800;
+  
+}
+.pricing > span{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
     
 /* Portfolio page*/
