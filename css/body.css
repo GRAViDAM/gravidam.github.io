@@ -340,6 +340,34 @@ div.team > a{
   color: #000 !important;
   
 }
+.portfolio_gallery{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+
+  /* Frosted glass
+  background: rgba(136, 0, 250, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(136, 0, 250, 0.24); */
+}
+.portfolio_gallery >a > img{
+  width: 20vw;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+  margin: 1em;
+  transition: transform 400ms;
+}
+.portfolio_gallery >a:hover > img{
+  transform: scale(1.1);
+}
 
 
 /* REFERENCE PAGE */
