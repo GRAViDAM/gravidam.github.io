@@ -10,11 +10,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/sliding.css">
     
 
 
 </head>
 <body>
+  
     <!--Navbar section-->
     <nav>
         GRAViDAM
@@ -23,11 +25,11 @@
         <label for="active" class="close"></label>
         <div class="wrapper">
           <ul>
-            <li><a href="#home">Home</a></li>
             <li><a href="#about">Tým</a></li>
             <li><a href="#pricing">Služby</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#reference">Reference</a></li>
+            <li><a href="#contact">Kontakt</a></li>
             </ul>
         </div>
         </nav>
@@ -43,12 +45,12 @@
     <main>
         <div class="container">
             <div class="row">
-              <div class="about_text">
+              <div class="about_text module">
                 <h1 id="about">O nás</h1>
                 <p>GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other users' models. GRAViDAM is a web application that allows users to create and share their own 3D models. Users can also view and download other</p>
               </div>
                 <div class="col-md-12">
-                    <div class="team">
+                    <div class="team module">
                         <a class="card" href="#">
                             <img class="image" src="../obrazky/doggo.png" alt="Ondřej Pacner">
                             <p class="text">Tady mám text</p>
@@ -77,9 +79,9 @@
             </div>
 
             <div class="row">
-                <h1 id="pricing">Co nabízíme</h1>
+                <h1 id="pricing module">Co nabízíme</h1>
                 <div class="col-md-12 text-center">
-                    <div class="pricing">
+                    <div class="pricing module">
                       
                       <a href="#">
                         <img src="../icons/web-design.png" alt="Ondřej Pacner">
@@ -114,129 +116,101 @@
                 </div>
             </div>
             <div class="row">
-                <div class="portfolio">
+                <div class="portfolio module">
                 <h1 id="portfolio">Naše portfolio</h1>
                     <div class="col-md-12">
                         <h2>Grafika</h2>
-                        <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner"> 
-                                <!--TADY SI můžete přidávat obsah portfolia-->
-                              <div class="carousel-item active">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
+                        <div class="portfolio_gallery module">
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
                         </div>
                         <h2>Animace</h2>
-                        <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner"> 
-                                <!--TADY SI můžete přidávat obsah portfolia-->
-                              <div class="carousel-item active">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
+                        <div class="portfolio_gallery module">
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
                         </div>
                         <h2>Video</h2>
-                        <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner"> 
-                                <!--TADY SI můžete přidávat obsah portfolia-->
-                              <div class="carousel-item active">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
+                        <div class="portfolio_gallery module">
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
                         </div>
                         <h2>Fotografie</h2>
-                        <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner"> 
-                                <!--TADY SI můžete přidávat obsah portfolia-->
-                              <div class="carousel-item active">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="../portfolio/doggo.png" class="d-block w-100" alt="...">
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
+                        <div class="portfolio_gallery module">
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
+                          <a href="#">
+                              <img src="../obrazky/doggo.png" alt="Ondřej Pacner">
+                          </a>
                         </div>
 
                     </div>
                 </div>
             </div>
             <div class="row">
-                <h1 id="#reference">Naše reference</h1>
+                <h1 id="#reference" class="module">Naše reference</h1>
                 <div class="col-md-12">
-                    <div class="review-main">
+                    <div class="review-main module">
                         <div class="review">
                             <img src="../obrazky/doggo.png">
                             <h3>Jan Novák</h3>
@@ -308,5 +282,16 @@
         </div>
 
     </footer>
+
+
+    <!--Toast-->
+    
 </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script src="../js/visibility_checker.js"></script>
