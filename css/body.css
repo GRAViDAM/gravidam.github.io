@@ -1,19 +1,20 @@
 /* NAV */
 #logo_nav{
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 5%;
+    padding: 0;
     box-sizing: border-box;
     position: fixed;
-    z-index: -5;
+    z-index: -1;
     top: 0;
     left: 0;
     right: 0;
     transition: all 0.5s ease;
+    border-radius: 0%;
 }
 
 nav{
@@ -193,18 +194,26 @@ header{
   height:50vh;
   color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1004%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M867 784.59 a240.95 240.95 0 1 0 481.9 0 a240.95 240.95 0 1 0 -481.9 0z' fill='rgba(136%2c 0%2c 255%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1156.841%2c378.488C1192.805%2c377.825%2c1227.327%2c360.227%2c1244.22%2c328.471C1260.249%2c298.339%2c1251.496%2c262.78%2c1233.974%2c233.491C1217.006%2c205.128%2c1189.882%2c183.244%2c1156.841%2c182.414C1122.413%2c181.55%2c1090.916%2c200.217%2c1072.695%2c229.441C1053.272%2c260.592%2c1045.648%2c299.834%2c1063.696%2c331.801C1081.996%2c364.216%2c1119.623%2c379.174%2c1156.841%2c378.488' fill='rgba(136%2c 0%2c 255%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1658.491%2c450.289C1693.817%2c452.819%2c1732.457%2c448.46%2c1752.682%2c419.387C1775.478%2c386.617%2c1779.364%2c341.252%2c1757.642%2c307.761C1737.289%2c276.381%2c1695.892%2c273.864%2c1658.491%2c274.164C1621.821%2c274.458%2c1579.757%2c277.214%2c1562.06%2c309.332C1544.695%2c340.849%2c1564.771%2c377.686%2c1585.089%2c407.385C1602.24%2c432.455%2c1628.194%2c448.119%2c1658.491%2c450.289' fill='rgba(136%2c 0%2c 255%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1048.824%2c216.509C1110.593%2c215.725%2c1168.586%2c187.839%2c1201.674%2c135.674C1237.394%2c79.359%2c1250.192%2c8.156%2c1218.04%2c-50.27C1184.88%2c-110.528%2c1117.6%2c-142.839%2c1048.824%2c-142.08C981.38%2c-141.336%2c919.219%2c-105.28%2c885.954%2c-46.606C853.132%2c11.286%2c854.078%2c83.055%2c889.105%2c139.64C922.436%2c193.486%2c985.502%2c217.312%2c1048.824%2c216.509' fill='rgba(136%2c 0%2c 255%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M269.47 1012.35 a192 192 0 1 0 384 0 a192 192 0 1 0 -384 0z' fill='rgba(136%2c 0%2c 255%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1569.071%2c524.295C1622.138%2c522.092%2c1670.043%2c493.001%2c1695.784%2c446.542C1720.749%2c401.483%2c1715.97%2c348.007%2c1692.009%2c302.406C1665.984%2c252.875%2c1624.969%2c207.831%2c1569.071%2c205.383C1509.591%2c202.778%2c1455.808%2c239.244%2c1425.952%2c290.754C1396.005%2c342.422%2c1391.519%2c406.96%2c1422.723%2c457.878C1452.725%2c506.834%2c1511.702%2c526.677%2c1569.071%2c524.295' fill='rgba(136%2c 0%2c 255%2c 1)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1004'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
-
-  font-size: 3em;
+  padding: auto;
+  font-size: 4em;
   font-weight: 900;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  z-index: 3;
+}
+header >img{
+  width: 10vw;
+  height: 10vw;
+  margin: 0.5em;
+  border-radius: 50%;
   
 }
 
   /* MAIN BODY PART */
 main{
-    
+    z-index: -5;
     margin-top: auto;
     position: relative;
     margin-left: 2em;
@@ -418,6 +427,7 @@ div.review-main{
   width: 33%;
   border-radius: 50%;
   margin: 1em;
+  min-width: 50px;
 }
 div.review{
   background-color: #8800FF;
@@ -428,9 +438,18 @@ div.review{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  width: 33%;
+  min-width: 200px;
   
 }
+div.review >p{
+  font-size: 1em;
+  
+  margin: 1em;
+  text-align: center;
+  
+}
+
 div.review:nth-of-type(2){ /* Posun prostředního div.review */
   margin-bottom: 3em;
 }
