@@ -539,7 +539,7 @@ footer{
 i.footer-icons{
   color: #fff;
 }
-i.footer-icons:hover{
+.fa-brands:hover{
   color: #8800FF !important;
 }
 
@@ -566,7 +566,9 @@ i.footer-icons:hover{
 }
 
 /* Footer Right */
-
+.form_btn:hover{
+  color: #8800FF !important;
+}
 .footer-distributed .footer-right{
 	float: right;
 }
