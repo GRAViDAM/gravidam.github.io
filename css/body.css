@@ -566,6 +566,9 @@ i.footer-icons{
 }
 
 /* Footer Right */
+button.form_btn:active{
+  scale: 1.1;
+}
 .form_btn:hover{
   color: #8800FF !important;
 }
