@@ -379,10 +379,11 @@ div.team > a{
 }
 .portfolio_gallery >a > img{
   width: 20vw;
+  min-width: 100px;
   height: 100%;
   object-fit: cover;
   border-radius: 1em;
-  margin: 1em;
+  margin: 0.5em;
   transition: transform 400ms;
 }
 .portfolio_gallery >a:hover > img{
